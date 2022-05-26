@@ -1,1 +1,1 @@
-# blog-page-for-school-2
+# blog-page-for-school

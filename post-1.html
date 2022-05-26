@@ -1,0 +1,259 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murat Atçeken | Posts</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar container" id="navbar">
+            <a href="./index.html">
+                <h2 class="logo">Murat Atçeken</h2>
+            </a>
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">References</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signup.html" class="list-link">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <div class="icon-box place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </div>
+
+                <div class="icon-box place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </div>
+
+                <div class="icon-box place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </div>
+
+                <a href="#" class="list-link screen-sm-hidden">Sign in</a>
+                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Sign up</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+        <div class="form-container">
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn icon-box" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+        </div>
+        <div class="btn form-close-btn icon-box place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </div>
+    </div>
+
+    <section class="blog-post section-header-offset">
+        <div class="blog-post-container container">
+            <div class="blog-post-data">
+                <h3 class="title blog-post-title">Linear Search vs Binary Search</h3>
+                <div class="article-data">
+                    <span>May 26th 2022</span>
+                    <span class="article-data-spacer"></span>
+                    <span>4 Min read</span>
+                </div>
+                <img src="./assets/images/featured/algorithm-1.jpeg" alt="">
+            </div>
+
+            <div class="container">
+                <p class="indent">
+                    Searching Algorithms are used to find whether a specific group of data exists within  
+                    a data structure. If it does exist, a search algorithm will find it and retrieve the 
+                    information. There are many diverse types of search algorithms. We will look at two well-known
+                     algorithms for searching: Linear and Binary search algorithms.
+                </p>
+
+                <p class="indent">
+                    Linear Search is a search algorithm that begins at one end of a data structure, checking
+                    each data item in turn until the required item is found, or the end of the structure is
+                    reached. If data is unordered and irregular, the most sensible way to solve this problem
+                    is linear search algorithm. Linear searches start at the beginning and sequentially look
+                    at each item in a list until you find the one you are looking for or until all of the items
+                    have been searched. If the data is at the beginning of the list, the search process is
+                    completed in a short time, but if it is towards the end of the list and the data set is
+                    large, the search process may take a long time. Linear Searches are relatively simple, 
+                    but they are inefficient when searching through long lists. 
+                </p>
+                
+                <p class="indent">
+                    Binary Search algorithm that begins in the middle of a data structure, cutting half of the 
+                    remaining data with each pass. Binary searches are only appropriate when the data is sorted. 
+                    If the data is sequential, the most efficient search method is the binary search algorithm. 
+                    It works by repeatedly dividing in half the part of the data list that could contain the required 
+                    data item. The binary search algorithm is quite efficient because half of the data that is not 
+                    searched is eliminated in one go. If a list of one million elements were to be searched using 
+                    a binary search, it would take no more than 20 iterations to find a particular piece of data 
+                    or discover that the data is not in the list. 
+                </p>
+
+                <p class="indent">
+                    The linear search algorithm is fine for small lists, but very inefficient for large lists. 
+                    In contrast, the binary search algorithm is extremely efficient. Each time an item is examined, 
+                    if it is not the correct item, half of the list is discarded. At this point, it is necessary to 
+                    look at the list and choose the most suitable algorithm according to it. 
+                </p>
+
+                
+            
+                
+
+                <div class="author d-grid">
+                    <div class="author-image-box">
+                        <img src="./assets/images/author.jpg" alt="" class="article-image">
+                    </div>
+                    <div class="author-about">
+                        <h3 class="author-name">Murat Atçeken</h3>
+                        <p>Medipol University</p>
+                        <ul class="list social-media">
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">Murat Atçeken</h2>
+                </a>
+                <p class="company-description">Blog page for school project.</p>
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                </ul>
+                <span class="copyright-notice">&copy;2022 Murat Atçeken. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Travel</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Food</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Technology</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Health</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Nature</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Fitness</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Elements</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Tags</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Membership</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">F.A.Q</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Careers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Memberships</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
