@@ -28,9 +28,7 @@
                     <li class="list-item">
                         <a href="#" class="list-link">Contact</a>
                     </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">References</a>
-                    </li>
+                    
                     <li class="list-item screen-lg-hidden">
                         <a href="./signin.html" class="list-link">Sign in</a>
                     </li>
@@ -82,51 +80,61 @@
     <section class="blog-post section-header-offset">
         <div class="blog-post-container container">
             <div class="blog-post-data">
-                <h3 class="title blog-post-title">Linear Search vs Binary Search</h3>
+                <h3 class="title blog-post-title">Bubble Sort vs Quick Sort </h3>
                 <div class="article-data">
                     <span>May 26th 2022</span>
                     <span class="article-data-spacer"></span>
                     <span>4 Min read</span>
                 </div>
-                <img src="./assets/images/featured/algorithm-1.jpeg" alt="">
+                <img src="https://i.ytimg.com/vi/BeoCbJPuvSE/maxresdefault.jpg" alt="">
             </div>
 
             <div class="container">
                 <p class="indent">
-                    Searching Algorithms are used to find whether a specific group of data exists within  
-                    a data structure. If it does exist, a search algorithm will find it and retrieve the 
-                    information. There are many diverse types of search algorithms. We will look at two well-known
-                     algorithms for searching: Linear and Binary search algorithms.
+                    Sorting is a frequent problem in computer programming. People can sort the data in the list 
+                    maybe at a glance, but computers need to take a number of steps to sort. This is a set of 
+                    steps that we call algorithms. A sorting algorithm is a method that can be used to place a 
+                    list of unordered items into an ordered sequence. There are many sorting algorithms, and they 
+                    differ from each other in efficiency and performance. The most well-known of these algorithms 
+                    are the bubble sorting algorithm and the selection sorting algorithm. 
                 </p>
 
+                <h5 class="title blog-post-title">Bubble Sort</h5>
+
                 <p class="indent">
-                    Linear Search is a search algorithm that begins at one end of a data structure, checking
-                    each data item in turn until the required item is found, or the end of the structure is
-                    reached. If data is unordered and irregular, the most sensible way to solve this problem
-                    is linear search algorithm. Linear searches start at the beginning and sequentially look
-                    at each item in a list until you find the one you are looking for or until all of the items
-                    have been searched. If the data is at the beginning of the list, the search process is
-                    completed in a short time, but if it is towards the end of the list and the data set is
-                    large, the search process may take a long time. Linear Searches are relatively simple, 
-                    but they are inefficient when searching through long lists. 
+                    The bubble sorting algorithm is performed repeatedly swapping adjacent data that are not in order 
+                    until the full list of data is in sequence. Thus, items can be seen as bubbling up. The most basic 
+                    advantage of bubble sort algorithm is that its implementation is simple and popular in industry. 
+                    Therefore, in the bubble sorting algorithm, the requirement of space is minimal, since the data can 
+                    be switched between each other without the need for additional temporary storage. The main 
+                    disadvantage is that it is inefficient on large lists. This is due to bubble sorting needs 
+                    n-squared processing steps for every n number of elements to be sorted. As such, the bubble 
+                    sort is mostly suitable when learning sorting algorithms but not for real-life solutions.  
                 </p>
+
+                <img src="https://miro.medium.com/max/556/0*lq-ZpDYjvYGmS7PO" alt="">
+
+                <h4 class="title blog-post-title">Quick Sort</h4>
                 
                 <p class="indent">
-                    Binary Search algorithm that begins in the middle of a data structure, cutting half of the 
-                    remaining data with each pass. Binary searches are only appropriate when the data is sorted. 
-                    If the data is sequential, the most efficient search method is the binary search algorithm. 
-                    It works by repeatedly dividing in half the part of the data list that could contain the required 
-                    data item. The binary search algorithm is quite efficient because half of the data that is not 
-                    searched is eliminated in one go. If a list of one million elements were to be searched using 
-                    a binary search, it would take no more than 20 iterations to find a particular piece of data 
-                    or discover that the data is not in the list. 
+                    The quick sort works on the divide-and-conquer principle. First, it divides the data into two lists 
+                    based on a pivot element. All data in the first list is set to be smaller than the pivot element, 
+                    while all data in the second list is set to be larger than the pivot element. The same dividing and 
+                    setting process is performed repeatedly on the resulting sublists until the complete list of items 
+                    are sorted. According to many, the best sorting algorithm is the quicksort algorithm. This is both 
+                    because it is very efficient with large lists and because there is no need for extra storage. The  
+                    disadvantage of quick sort is that its worst-case performance is like average performances of the 
+                    bubble or selections sorts.  
                 </p>
 
+                <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/quick-sort/figures/Quicksort.png" alt="">
+
+                <h4 class="title blog-post-title">In conclusion</h4>
+
                 <p class="indent">
-                    The linear search algorithm is fine for small lists, but very inefficient for large lists. 
-                    In contrast, the binary search algorithm is extremely efficient. Each time an item is examined, 
-                    if it is not the correct item, half of the list is discarded. At this point, it is necessary to 
-                    look at the list and choose the most suitable algorithm according to it. 
+                    To make a conclusion, there are many algorithms for sorting problems in the industry, and they are 
+                    all suitable for the data sets for which they are specially designed. If you need to make 
+                    a short-term solution, quick sort is the most suitable algorithm for this. 
                 </p>
 
                 
@@ -134,9 +142,7 @@
                 
 
                 <div class="author d-grid">
-                    <div class="author-image-box">
-                        <img src="./assets/images/author.jpg" alt="" class="article-image">
-                    </div>
+                    
                     <div class="author-about">
                         <h3 class="author-name">Murat Atçeken</h3>
                         <p>Medipol University</p>
